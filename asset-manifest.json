@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.3f68afa3.css",
-    "main.js": "/static/js/main.569d6cb0.js",
-    "static/media/HojaDeVida-NormanRaudales.pdf": "/static/media/HojaDeVida-NormanRaudales.caf1a4a74d920e6f6e91.pdf",
-    "static/media/Resume-NormanRaudales.pdf": "/static/media/Resume-NormanRaudales.1e33d397fe4df92682f2.pdf",
-    "static/media/IMG_1946.JPG": "/static/media/IMG_1946.c231291c8b16c7858b4a.JPG",
-    "static/media/gamer-4k-game-console-tv-night.jpg": "/static/media/gamer-4k-game-console-tv-night.4a52c0d5c97956a1152c.jpg",
-    "static/media/InstagramIcon.png": "/static/media/InstagramIcon.a7eba61a4375d5b5e97e.png",
-    "static/media/react.png": "/static/media/react.85ee91e5ab3933852db4.png",
-    "static/media/mongodbIcon.png": "/static/media/mongodbIcon.898114ffec7b545a20b4.png",
-    "static/media/htmlIcon.png": "/static/media/htmlIcon.f1dcf1a4d814804e3768.png",
-    "static/media/mysqlIcon.png": "/static/media/mysqlIcon.60eee9d9c9640a706bf1.png",
-    "static/media/rrhh_aurora.svg": "/static/media/rrhh_aurora.29c1553b9901ecc8b2731dc130ec15ee.svg",
-    "static/media/cmsOneClick.svg": "/static/media/cmsOneClick.1684ccdfbff4a33cf78b60f5bfcc2298.svg",
-    "static/media/PoaPacc.svg": "/static/media/PoaPacc.2df03d1841986de2c9a312d532c62f3a.svg",
-    "static/media/computadora-portatil.svg": "/static/media/computadora-portatil.08cdac652d4b487a214dab26e151cc9e.svg",
-    "index.html": "/index.html",
-    "main.3f68afa3.css.map": "/static/css/main.3f68afa3.css.map",
-    "main.569d6cb0.js.map": "/static/js/main.569d6cb0.js.map"
+    "main.css": "/normanr20.github.io/static/css/main.11700d20.css",
+    "main.js": "/normanr20.github.io/static/js/main.a9b67a39.js",
+    "static/media/HojaDeVida-NormanRaudales.pdf": "/normanr20.github.io/static/media/HojaDeVida-NormanRaudales.caf1a4a74d920e6f6e91.pdf",
+    "static/media/Resume-NormanRaudales.pdf": "/normanr20.github.io/static/media/Resume-NormanRaudales.1e33d397fe4df92682f2.pdf",
+    "static/media/IMG_1946.JPG": "/normanr20.github.io/static/media/IMG_1946.c231291c8b16c7858b4a.JPG",
+    "static/media/gamer-4k-game-console-tv-night.jpg": "/normanr20.github.io/static/media/gamer-4k-game-console-tv-night.4a52c0d5c97956a1152c.jpg",
+    "static/media/InstagramIcon.png": "/normanr20.github.io/static/media/InstagramIcon.a7eba61a4375d5b5e97e.png",
+    "static/media/react.png": "/normanr20.github.io/static/media/react.85ee91e5ab3933852db4.png",
+    "static/media/mongodbIcon.png": "/normanr20.github.io/static/media/mongodbIcon.898114ffec7b545a20b4.png",
+    "static/media/htmlIcon.png": "/normanr20.github.io/static/media/htmlIcon.f1dcf1a4d814804e3768.png",
+    "static/media/mysqlIcon.png": "/normanr20.github.io/static/media/mysqlIcon.60eee9d9c9640a706bf1.png",
+    "static/media/rrhh_aurora.svg": "/normanr20.github.io/static/media/rrhh_aurora.29c1553b9901ecc8b2731dc130ec15ee.svg",
+    "static/media/cmsOneClick.svg": "/normanr20.github.io/static/media/cmsOneClick.1684ccdfbff4a33cf78b60f5bfcc2298.svg",
+    "static/media/PoaPacc.svg": "/normanr20.github.io/static/media/PoaPacc.2df03d1841986de2c9a312d532c62f3a.svg",
+    "static/media/computadora-portatil.svg": "/normanr20.github.io/static/media/computadora-portatil.08cdac652d4b487a214dab26e151cc9e.svg",
+    "index.html": "/normanr20.github.io/index.html",
+    "main.11700d20.css.map": "/normanr20.github.io/static/css/main.11700d20.css.map",
+    "main.a9b67a39.js.map": "/normanr20.github.io/static/js/main.a9b67a39.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f68afa3.css",
-    "static/js/main.569d6cb0.js"
+    "static/css/main.11700d20.css",
+    "static/js/main.a9b67a39.js"
   ]
 }
