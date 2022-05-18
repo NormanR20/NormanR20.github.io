@@ -1,0 +1,54 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "resume": "Resume",
+    "proyects": "Proyects",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "welcome": {
+    "web-developer": "Web Developer"
+  },
+  "about": {
+    "title": "About",
+    "description": "Hello, my name is Norman Eduardo Raudales Mejía, I am a systems engineer graduated from the National Autonomous University of Honduras. I like web design, and it always motivates me to have new challenges.",
+    "ageD": "Age",
+    "ageT": "years old",
+    "language": "Languages: Spanish (Native), English",
+    "qualification": "Qualification: Bachelor of Systems Engineering"
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "I have worked with various technologies, of which I always learn more each time.",
+    "techs": "The technologies I have worked with are:"
+  },
+  "Resume": {
+    "title": "Resume",
+    "description": "To learn more about me, click on the following link:"
+  },
+  "Proyects": {
+    "title": "Proyects"
+  },
+  "Proyect": {
+    "description": "Description",
+    "characteristics": "Characteristics"
+  },
+  "Contact": {
+    "title": "Contact",
+    "email": "Email",
+    "cellphone": "Cellphone"
+  },
+  "footer": {
+    "title": "Current Language"
+  },
+  "email": {
+    "title": "Contact me to work together",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "success": "The message was sent successfully!!",
+    "error": "Something went wrong.",
+    "send": "Send Mail"
+  }
+}

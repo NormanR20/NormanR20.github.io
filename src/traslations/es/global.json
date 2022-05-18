@@ -1,0 +1,54 @@
+{
+  "navbar": {
+    "home": "Incio",
+    "about": "Sobre mi",
+    "resume": "Hoja de Vida",
+    "proyects": "Proyectos",
+    "contact": "Contacto",
+    "language": "Idioma"
+  },
+  "welcome": {
+    "web-developer": "Desarrollador Web"
+  },
+  "about": {
+    "title": "Sobre mi",
+    "description": "Hola, mi nombre es Norman Eduardo Raudales Mejía, soy ingeniero en sistemas graduado de la Universidad Nacional Autónoma de Honduras. Me gusta el diseño web, y siempre me motiva tener nuevos retos.",
+    "ageD": "Edad",
+    "ageT": "años",
+    "language": "Idiomas: Español (Nativo), Ingles",
+    "qualification": "Titulación: Licenciatura en Ingeniería en Sistemas"
+  },
+  "skills": {
+    "title": "Habilidades",
+    "description": "He trabajado con varias tecnologías, de las cuales siempre aprendo más a cada vez.",
+    "techs": "Las tecnologías con las que he trabajado son:"
+  },
+  "Resume": {
+    "title": "Hoja de vida",
+    "description": "Para conocer más sobre mí, dar clic en el siguiente enlace:"
+  },
+  "Proyects": {
+    "title": "Proyectos"
+  },
+  "Proyect": {
+    "description": "Descripción",
+    "characteristics": "Características"
+  },
+  "Contact": {
+    "title": "Contacto",
+    "email": "Correo",
+    "cellphone": "Celular"
+  },
+  "footer": {
+    "title": "Idioma Actual"
+  },
+  "email": {
+    "title": "Contactame para trabajar juntos",
+    "name": "Nombre",
+    "email": "Correo",
+    "message": "Mensaje",
+    "success": "El mensaje se envio con exito!!",
+    "error": "Algo salio mal.",
+    "send": "Enviar Correo"
+  }
+}

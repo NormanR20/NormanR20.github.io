@@ -1,0 +1,200 @@
+#intro {
+  transform: translateY(0%);
+  background: url("../images/gamer-4k-game-console-tv-night.jpg") no-repeat;
+  background-size: cover;
+  transition: 1.8s ease-in-out;
+  z-index: 6;
+  /* border-bottom-right-radius: 3%;
+    border-bottom-left-radius: 3%; */
+}
+#intro2 {
+  transform: translateY(0%);
+  background: url("../images/gamer-4k-game-console-tv-night.jpg") no-repeat;
+  background-size: cover;
+  transition: 1.8s ease-in-out;
+  z-index: 6;
+  /* border-bottom-right-radius: 3%;
+    border-bottom-left-radius: 3%; */
+}
+
+.fondoIntro {
+  transform: translateY(0%);
+  background: url("../images/gamer-4k-game-console-tv-night.jpg") no-repeat;
+  background-size: cover;
+  /* transition: 1.8s ease-in-out; */
+}
+
+/* @keyframes slidein {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+} */
+
+/* @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+} */
+
+@keyframes slideInFromRight {
+  0% {
+    /* transform: translateX(20%); */
+    opacity: 0;
+  }
+  100% {
+    /* transform: translateX(0); */
+    opacity: 1;
+  }
+}
+
+.slide-in-from-right {
+  animation: 2s ease-out 0s 1 slideInFromRight forwards;
+}
+
+/* @keyframes cambio1 {
+    from {opacity: 1;}
+    to {opacity: 0;}
+} */
+
+.contenedor {
+  animation: cambio2 1s steps(30) infinite alternate;
+}
+
+@keyframes cambio2 {
+  0% {
+    color: rgb(255, 255, 255);
+  }
+  25% {
+    color: rgb(156, 156, 156);
+  }
+  50% {
+    color: rgb(61, 61, 61);
+  }
+  75% {
+    color: rgb(156, 156, 156);
+  }
+  100% {
+    color: rgb(255, 255, 255);
+  }
+}
+/* #NombreMio{
+    animation: cambio2 0.8s steps(30) infinite alternate;   
+} */
+
+a:hover {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+#imgCpu:hover {
+  transition: 0.8s ease-in-out;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+#navbarExample01 {
+  transition: 0.8s ease-in-out;
+}
+
+@media (min-width: 992px) {
+  #intro {
+    margin-top: -58.59px;
+  }
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+}
+.contenedor {
+  margin: auto;
+  display: table;
+}
+h3 {
+  position: relative;
+  float: left;
+}
+h3 span {
+  position: absolute;
+  right: 0;
+  width: 0;
+  /* background: #000000; */
+  /* border-left: 5px solid rgb(255, 255, 255); */
+  animation: escribir 4s steps(30) infinite alternate;
+}
+
+@keyframes escribir {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}
+
+.Resume {
+  border-top-left-radius: 30%;
+  border-top-right-radius: 10%;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 10%;
+}
+
+#iconoF:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.modal-header {
+  background-color: #000000;
+  color: white;
+}
+
+.fade {
+  transition: 0.2s ease-in-out;
+}
+
+.tabla {
+  background-color: white;
+  /* border: 2px double rgba(11, 3, 126, 0.13);
+  border-radius: 15px; */
+  padding: 2rem;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  /* box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.089); */
+}
+
+.tablaInicio {
+  background-color: white;
+  border: 2px double rgba(11, 3, 126, 0.13);
+  border-radius: 15px;
+  padding: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.473);
+}
+
+#fondoMenuInicial {
+  background-color: #000000e0;
+  background-size: cover;
+  transition: 1.8s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  height: 100vh;
+  position: relative;
+}
+@media (max-width: 700px) {
+  #fondoMenuInicial {
+    height: 130vh;
+    position: unset;
+  }
+}
