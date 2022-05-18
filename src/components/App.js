@@ -6,7 +6,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/PortafolioDigital" component={Inicio} exact />
+        <Route path="/" component={Inicio} exact />
         {/* <Route path="*" component={ NotFound } /> */}
       </Switch>
     </Router>
