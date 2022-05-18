@@ -38,7 +38,7 @@ const CustomNavbar = (props) => {
               </Nav.Link>
               <NavDropdown title={t("navbar.language")} id="basic-nav-dropdown">
                 <NavDropdown.Item
-                  href="/"
+                  href="/PortafolioDigital"
                   onClick={() => {
                     localStorage.removeItem("idioma");
                     localStorage.setItem("idioma", "es");
@@ -48,7 +48,7 @@ const CustomNavbar = (props) => {
                   ES
                 </NavDropdown.Item>
                 <NavDropdown.Item
-                  href="/"
+                  href="/PortafolioDigital"
                   onClick={() => {
                     localStorage.removeItem("idioma");
                     localStorage.setItem("idioma", "en");
