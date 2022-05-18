@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortafolioDigital/static/css/main.4cd7a641.css",
-    "main.js": "/PortafolioDigital/static/js/main.273ffa06.js",
+    "main.js": "/PortafolioDigital/static/js/main.da4a7dec.js",
     "static/media/HojaDeVida-NormanRaudales.pdf": "/PortafolioDigital/static/media/HojaDeVida-NormanRaudales.caf1a4a74d920e6f6e91.pdf",
     "static/media/Resume-NormanRaudales.pdf": "/PortafolioDigital/static/media/Resume-NormanRaudales.1e33d397fe4df92682f2.pdf",
     "static/media/IMG_1946.JPG": "/PortafolioDigital/static/media/IMG_1946.c231291c8b16c7858b4a.JPG",
@@ -17,10 +17,10 @@
     "static/media/computadora-portatil.svg": "/PortafolioDigital/static/media/computadora-portatil.08cdac652d4b487a214dab26e151cc9e.svg",
     "index.html": "/PortafolioDigital/index.html",
     "main.4cd7a641.css.map": "/PortafolioDigital/static/css/main.4cd7a641.css.map",
-    "main.273ffa06.js.map": "/PortafolioDigital/static/js/main.273ffa06.js.map"
+    "main.da4a7dec.js.map": "/PortafolioDigital/static/js/main.da4a7dec.js.map"
   },
   "entrypoints": [
     "static/css/main.4cd7a641.css",
-    "static/js/main.273ffa06.js"
+    "static/js/main.da4a7dec.js"
   ]
 }
