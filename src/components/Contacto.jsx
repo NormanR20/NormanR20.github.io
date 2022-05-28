@@ -25,49 +25,54 @@ const Contacto = () => {
 
         <Container>
           <Row>
-            <div
-              style={{ marginLeft: "auto" }}
-              class="col-xl-1 col-lg-1 col-md-1 col-sm-4 col-4"
-              id="iconoF"
-              align="center"
-            >
-              <img
-                src={facebook}
-                alt=""
-                style={{ width: "50%" }}
-                onclick="//window.open('https://www.facebook.com/nraudalesmejia/')"
-              />
-            </div>
-            <Col lg="1" xl="1" md="1" sm="4" id="iconoF" align="center">
-              <img
-                src={InstagramIcon}
-                alt=""
-                style={{ width: "50%" }}
-                onclick="//window.open('https://www.instagram.com/_normanr17_/?hl=es')"
-              />
-            </Col>
-            <Col
-              lg="1"
-              xl="1"
-              md="1"
-              sm="4"
-              style={{ marginRight: "auto" }}
-              id="iconoF"
-              align="center"
-            >
-              <img
-                src={LinkedInIcon}
-                alt=""
-                style={{ width: "50%" }}
-                onclick="window.open('https://www.linkedin.com/in/norman-eduardo-raudales-mejia-234722197')"
-              />
+            <Col className="d-flex align-items-center justify-content-center text-center">
+              <Col
+                style={{ marginLeft: "auto" }}
+                lg="1"
+                xl="1"
+                md="1"
+                sm="4"
+                id="iconoF"
+                align="center"
+              >
+                <img
+                  src={facebook}
+                  alt=""
+                  style={{ width: "30px" }}
+                  onclick="//window.open('https://www.facebook.com/nraudalesmejia/')"
+                />
+              </Col>
+              <Col lg="1" xl="1" md="1" sm="4" id="iconoF" align="center">
+                <img
+                  src={InstagramIcon}
+                  alt=""
+                  style={{ width: "30px" }}
+                  onclick="//window.open('https://www.instagram.com/_normanr17_/?hl=es')"
+                />
+              </Col>
+              <Col
+                lg="1"
+                xl="1"
+                md="1"
+                sm="4"
+                style={{ marginRight: "auto" }}
+                id="iconoF"
+                align="center"
+              >
+                <img
+                  src={LinkedInIcon}
+                  alt=""
+                  style={{ width: "30px" }}
+                  onclick="window.open('https://www.linkedin.com/in/norman-eduardo-raudales-mejia-234722197')"
+                />
+              </Col>
             </Col>
           </Row>
         </Container>
         <br />
         <Container>
-          <h5>{t("Contact.email")}: norman17.rm@gmail.com</h5>
-          <h5>{t("Contact.cellphone")}: (504) 9777-1623</h5>
+          <p>{t("Contact.email")}: norman17.rm@gmail.com</p>
+          <p>{t("Contact.cellphone")}: (504) 9777-1623</p>
         </Container>
       </section>
     </div>

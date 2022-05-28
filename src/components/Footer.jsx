@@ -45,10 +45,8 @@ const Footer = () => {
                 <Row className="text-center p-3 mx-2">
                   <Col>
                     <p>
-                      <b>
-                        {t("footer.title")} : {i18n.language.toUpperCase()}
-                        {/* &nbsp;&nbsp;&nbsp;&nbsp;V. 2.0 */}
-                      </b>
+                      {t("footer.title")} : {i18n.language.toUpperCase()}
+                      {/* &nbsp;&nbsp;&nbsp;&nbsp;V. 2.0 */}
                     </p>
                   </Col>
                 </Row>

@@ -18,7 +18,10 @@ const CustomNavbar = (props) => {
         }}
       >
         <Container fluid>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle
+            className="ml-auto bg-light"
+            aria-controls="basic-navbar-nav"
+          />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="m-auto">
               <Nav.Link className="text-light" href="#Intro">

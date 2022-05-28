@@ -33,16 +33,19 @@ const Form = () => {
   return (
     <>
       <div>
-        <div
+        <Col
           style={{
-            width: "50%",
             // backgroundColor: "#000000",
             margin: "0 auto",
             padding: "10px",
           }}
+          xl="6"
+          lg="6"
+          md="6"
+          sm="12"
           className="rounded bg-light text-dark p-5 shadow"
         >
-          <h1>{t("email.title")}</h1>
+          <h4>{t("email.title")}</h4>
           <hr />
           <form onSubmit={enviarEmail}>
             <div className="form-row">
@@ -87,13 +90,13 @@ const Form = () => {
               <button
                 type="submit"
                 className="btn btn-dark"
-                style={{ width: "50%", margin: "0 auto", marginTop: "20px" }}
+                style={{ margin: "0 auto", marginTop: "20px" }}
               >
                 {t("email.send")}
               </button>
             </Col>
           </form>
-        </div>
+        </Col>
       </div>
     </>
   );
