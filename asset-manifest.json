@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3f68afa3.css",
-    "main.js": "/static/js/main.569d6cb0.js",
+    "main.js": "/static/js/main.30e0dbd8.js",
     "static/media/HojaDeVida-NormanRaudales.pdf": "/static/media/HojaDeVida-NormanRaudales.caf1a4a74d920e6f6e91.pdf",
     "static/media/Resume-NormanRaudales.pdf": "/static/media/Resume-NormanRaudales.1e33d397fe4df92682f2.pdf",
     "static/media/IMG_1946.JPG": "/static/media/IMG_1946.c231291c8b16c7858b4a.JPG",
@@ -17,10 +17,10 @@
     "static/media/computadora-portatil.svg": "/static/media/computadora-portatil.08cdac652d4b487a214dab26e151cc9e.svg",
     "index.html": "/index.html",
     "main.3f68afa3.css.map": "/static/css/main.3f68afa3.css.map",
-    "main.569d6cb0.js.map": "/static/js/main.569d6cb0.js.map"
+    "main.30e0dbd8.js.map": "/static/js/main.30e0dbd8.js.map"
   },
   "entrypoints": [
     "static/css/main.3f68afa3.css",
-    "static/js/main.569d6cb0.js"
+    "static/js/main.30e0dbd8.js"
   ]
 }
