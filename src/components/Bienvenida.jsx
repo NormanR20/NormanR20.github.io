@@ -19,14 +19,10 @@ const Bienvenida = () => {
                 xl="4"
                 md="4"
                 sm="4"
+                xs="4"
                 style={{ marginLeft: "auto", marginRight: "auto" }}
               >
-                <img
-                  id="imgCpu"
-                  src={CPU}
-                  style={{ width: "100%" }}
-                  alt="CPU"
-                />
+                <img id="imgCpu" src={CPU} alt="CPU" />
               </Col>
               <h1 className="mb-3" id="NombreMio">
                 Norman Raudales
