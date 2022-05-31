@@ -1,10 +1,10 @@
 {
   "main.css": "/static/css/main.eb2ba5ee.chunk.css",
-  "main.js": "/static/js/main.18cea6ed.chunk.js",
-  "main.js.map": "/static/js/main.18cea6ed.chunk.js.map",
+  "main.js": "/static/js/main.babf3be8.chunk.js",
+  "main.js.map": "/static/js/main.babf3be8.chunk.js.map",
   "static/css/1.732a9e60.chunk.css": "/static/css/1.732a9e60.chunk.css",
-  "static/js/1.eb6aaad9.chunk.js": "/static/js/1.eb6aaad9.chunk.js",
-  "static/js/1.eb6aaad9.chunk.js.map": "/static/js/1.eb6aaad9.chunk.js.map",
+  "static/js/1.2a6d6c95.chunk.js": "/static/js/1.2a6d6c95.chunk.js",
+  "static/js/1.2a6d6c95.chunk.js.map": "/static/js/1.2a6d6c95.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/htmlIcon.png": "/static/media/htmlIcon.a76eb1f3.png",
@@ -20,9 +20,9 @@
   "static/media/IMG_1946.JPG": "/static/media/IMG_1946.37f06308.JPG",
   "static/media/HojaDeVida-NormanRaudales.pdf": "/static/media/HojaDeVida-NormanRaudales.43111572.pdf",
   "static/media/Resume-NormanRaudales.pdf": "/static/media/Resume-NormanRaudales.8dfd0d8c.pdf",
-  "static/css/1.732a9e60.chunk.css.map": "/static/css/1.732a9e60.chunk.css.map",
   "static/css/main.eb2ba5ee.chunk.css.map": "/static/css/main.eb2ba5ee.chunk.css.map",
+  "static/css/1.732a9e60.chunk.css.map": "/static/css/1.732a9e60.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.171a1d116cc002a1e69c833adf76f183.js": "/precache-manifest.171a1d116cc002a1e69c833adf76f183.js",
+  "precache-manifest.8f8685736f13c4e7a75fe12452af46e5.js": "/precache-manifest.8f8685736f13c4e7a75fe12452af46e5.js",
   "service-worker.js": "/service-worker.js"
 }
