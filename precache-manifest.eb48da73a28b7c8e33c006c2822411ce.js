@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "babf3be88c54bdcf52f8",
-    "url": "/static/css/main.eb2ba5ee.chunk.css"
+    "revision": "6b12559b37ee06945fed",
+    "url": "/static/css/main.d74aff3b.chunk.css"
   },
   {
-    "revision": "babf3be88c54bdcf52f8",
-    "url": "/static/js/main.babf3be8.chunk.js"
+    "revision": "6b12559b37ee06945fed",
+    "url": "/static/js/main.6b12559b.chunk.js"
   },
   {
-    "revision": "2a6d6c95090f6ea94118",
-    "url": "/static/css/1.732a9e60.chunk.css"
+    "revision": "a16207244cd6727c070e",
+    "url": "/static/css/1.3a8ca3f6.chunk.css"
   },
   {
-    "revision": "2a6d6c95090f6ea94118",
-    "url": "/static/js/1.2a6d6c95.chunk.js"
+    "revision": "a16207244cd6727c070e",
+    "url": "/static/js/1.a1620724.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -52,12 +52,12 @@ self.__precacheManifest = [
     "url": "/static/media/rrhh_aurora.adf79099.svg"
   },
   {
-    "revision": "d883c38807089a496e81dc34e951e663",
-    "url": "/static/media/InstagramIcon.d883c388.png"
-  },
-  {
     "revision": "744bf3b8925a29fb30a6f5c05165f78c",
     "url": "/static/media/computadora-portatil.744bf3b8.svg"
+  },
+  {
+    "revision": "d883c38807089a496e81dc34e951e663",
+    "url": "/static/media/InstagramIcon.d883c388.png"
   },
   {
     "revision": "37f06308332b64a8bccad0003fde2986",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/static/media/Resume-NormanRaudales.8dfd0d8c.pdf"
   },
   {
-    "revision": "0fafda4c53b0b30cad3e5647880f7881",
+    "revision": "d6e2e635dc92fb1832dde5a898465edf",
     "url": "/index.html"
   }
 ];
