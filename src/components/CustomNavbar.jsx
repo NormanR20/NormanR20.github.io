@@ -5,6 +5,8 @@ import { Navbar, Nav, Container, NavDropdown, Row } from "react-bootstrap";
 import "../css/style.css";
 import us_en from "../images/us_en.png";
 import es_es from "../images/es_es.png";
+import CPU from "../images/computadora-portatil.svg";
+import MaterialIcon, { colorPalette } from "material-icons-react";
 
 const CustomNavbar = (props) => {
   const [t, i18n] = useTranslation("global");
@@ -21,13 +23,20 @@ const CustomNavbar = (props) => {
         inverse
         collapseOnSelect
       >
-        <Container fluid>
+        <Container
+          fluid
+          className="d-flex align-items-center justify-content-center text-center"
+        >
+          <Navbar.Brand className="text-light d-flex align-items-center justify-content-center">
+            <MaterialIcon icon="computer" invert />
+            &nbsp;Norman Raudales
+          </Navbar.Brand>
           <Navbar.Toggle
             className="ml-auto bg-light"
             aria-controls="basic-navbar-nav"
           />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="m-auto">
+            <Nav className="ml-auto">
               <Nav.Link className="text-light" href="#Intro">
                 {t("navbar.home")}
               </Nav.Link>
@@ -45,7 +54,7 @@ const CustomNavbar = (props) => {
               </Nav.Link>
               <NavDropdown title={t("navbar.language")} id="basic-nav-dropdown">
                 <NavDropdown.Item
-                  href="/"
+                  // href="/"
                   onClick={() => {
                     localStorage.removeItem("idioma");
                     localStorage.setItem("idioma", "es");
@@ -64,7 +73,7 @@ const CustomNavbar = (props) => {
                   </Row>
                 </NavDropdown.Item>
                 <NavDropdown.Item
-                  href="/"
+                  // href="/"
                   onClick={() => {
                     localStorage.removeItem("idioma");
                     localStorage.setItem("idioma", "en");

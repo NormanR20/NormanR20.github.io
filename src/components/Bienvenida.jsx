@@ -9,7 +9,11 @@ const Bienvenida = () => {
   // console.log(i18n.language);
   return (
     <>
-      <div>
+      <div
+      // style={{
+      //   marginTop: "4rem",
+      // }}
+      >
         {/* <div id="intro" className="bg-image vh-100 shadow-1-strong"> */}
         <div id="intro" className="bg-image vh-100 shadow-1-strong">
           <Container className="d-flex align-items-center justify-content-center text-center h-100">
