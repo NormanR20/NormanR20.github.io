@@ -18,6 +18,8 @@ const CustomNavbar = (props) => {
           backgroundColor: "#000000",
           transitionDelay: "2s",
         }}
+        inverse
+        collapseOnSelect
       >
         <Container fluid>
           <Navbar.Toggle

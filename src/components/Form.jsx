@@ -71,6 +71,7 @@ const Form = () => {
                   className="form-control"
                   id="nombre"
                   name="from_name"
+                  placeholder="Ej. Juan Perez"
                   required
                 />
               </div>
@@ -84,6 +85,7 @@ const Form = () => {
                     className="form-control"
                     id="email"
                     name="ext_from"
+                    placeholder="Ej. 504"
                     required
                   />
                 </div>
@@ -96,6 +98,7 @@ const Form = () => {
                     className="form-control"
                     id="email"
                     name="cel_from"
+                    placeholder="Ej. 95580123"
                     required
                   />
                 </div>
@@ -109,6 +112,7 @@ const Form = () => {
                   className="form-control"
                   id="email"
                   name="from_email"
+                  placeholder="Ej. juanito@gmail.com"
                   required
                 />
               </div>
@@ -122,6 +126,7 @@ const Form = () => {
                 className="form-control"
                 id="mensaje"
                 name="message"
+                placeholder={t("email.placeholder")}
                 required
               ></textarea>
             </div>

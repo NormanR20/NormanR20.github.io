@@ -53,6 +53,7 @@
     "email": "Correo",
     "cell": "Celular",
     "message": "Mensaje",
+    "placeholder": "Ej. 'Buen día estimado, me gustaría poderle contactar'",
     "success": "El mensaje se envio con exito!!",
     "error": "Algo salio mal.",
     "send": "Enviar Correo"

@@ -53,6 +53,7 @@
     "email": "Email",
     "cell": "Cellphone",
     "message": "Message",
+    "placeholder": "Ej. 'Good day dear, I would like to be able to contact you'",
     "success": "The message was sent successfully!!",
     "error": "Something went wrong.",
     "send": "Send Mail"
