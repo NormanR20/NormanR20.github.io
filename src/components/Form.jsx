@@ -133,7 +133,7 @@ const Form = () => {
             <Col className="d-flex flex-wrap justify-content-center align-items-center">
               <button
                 type="submit"
-                className="btn btn-dark"
+                className="btn btn-dark rounded-pill shadow"
                 style={{ margin: "0 auto", marginTop: "20px" }}
               >
                 {t("email.send")}

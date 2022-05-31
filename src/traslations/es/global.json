@@ -33,7 +33,8 @@
     "description": "Para conocer más sobre mí, dar clic en el siguiente enlace:"
   },
   "Proyects": {
-    "title": "Proyectos"
+    "title": "Proyectos",
+    "view": "Ver"
   },
   "Proyect": {
     "description": "Descripción",

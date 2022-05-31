@@ -33,7 +33,8 @@
     "description": "To learn more about me, click on the following link:"
   },
   "Proyects": {
-    "title": "Proyects"
+    "title": "Proyects",
+    "view": "Go"
   },
   "Proyect": {
     "description": "Description",

@@ -1,8 +1,10 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { Button, Card, Col, Row } from "react-bootstrap";
 import "../css/style.css";
 
 const Proyecto = (props) => {
+  const [t, i18n] = useTranslation("global");
   return (
     <Col lg="4" md="12" className="mb-4">
       <Card className="shadow">
@@ -30,11 +32,11 @@ const Proyecto = (props) => {
           <Row>
             <Button
               variant="dark"
-              size="lg"
-              className="rounded mt-2 mx-auto"
+              size="md"
+              className="rounded-pill shadow p-0 px-2 mt-2 mx-auto"
               onClick={props.onShow}
             >
-              Visualizar
+              {t("Proyects.view")}
             </Button>
           </Row>
         </Card.Footer>
