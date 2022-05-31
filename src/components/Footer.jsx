@@ -5,6 +5,8 @@ import InstagramIcon from "../images/InstagramIcon.png";
 import LinkedInIcon from "../images/LinkedInIcon.png";
 import facebook from "../images/facebook.png";
 import "../css/style.css";
+import us_en from "../images/us_en.png";
+import es_es from "../images/es_es.png";
 
 const Footer = () => {
   const [t, i18n] = useTranslation("global");
@@ -37,17 +39,44 @@ const Footer = () => {
             <Row>
               <Col className="d-flex flex-wrap justify-content-start align-items-center">
                 <Row className="text-center p-3 mx-2">
-                  © 2022 Copyright:
-                  <p>Norman Raudales</p>
+                  <Row>
+                    © 2022 Copyright: <p>Norman Raudales</p>
+                  </Row>
                 </Row>
               </Col>
               <Col className="d-flex flex-wrap justify-content-end align-items-center">
                 <Row className="text-center p-3 mx-2">
                   <Col>
-                    <p>
-                      {t("footer.title")} : {i18n.language.toUpperCase()}
-                      {/* &nbsp;&nbsp;&nbsp;&nbsp;V. 2.0 */}
-                    </p>
+                    <Row>
+                      <p>
+                        {/* <Row>{t("footer.title")} :</Row>{" "} */}
+                        {i18n.language.toUpperCase() === "ES" && (
+                          <Row>
+                            <img
+                              id="es_es"
+                              src={es_es}
+                              alt="es_es"
+                              width="20px"
+                              className="mr-2"
+                            />
+                            ES
+                          </Row>
+                        )}
+                        {i18n.language.toUpperCase() === "EN" && (
+                          <Row>
+                            <img
+                              id="us_en"
+                              src={us_en}
+                              alt="us_en"
+                              width="20px"
+                              className="mr-2"
+                            />
+                            EN
+                          </Row>
+                        )}
+                        {/* &nbsp;&nbsp;&nbsp;&nbsp;V. 2.0 */}
+                      </p>
+                    </Row>
                   </Col>
                 </Row>
               </Col>

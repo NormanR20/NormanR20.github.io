@@ -306,13 +306,32 @@ const Inicio = () => {
                       {itemView &&
                         itemView.caracteristicas &&
                         itemView.caracteristicas.length > 0 &&
-                        itemView.caracteristicas[2].temario.map((tem) => (
-                          <>
-                            <Col xl="4" lg="4" md="4" sm="6">
-                              <img src={tem} alt="" style={{ width: "100%" }} />
-                            </Col>
-                          </>
-                        ))}
+                        itemView.caracteristicas[2].temario.map(
+                          (tem, index) => (
+                            <>
+                              <Col
+                                xl="4"
+                                lg="4"
+                                md="4"
+                                sm="6"
+                                className="d-flex flex-wrap justify-content-center align-items-center"
+                              >
+                                <img
+                                  src={tem}
+                                  alt=""
+                                  style={{ width: "100%" }}
+                                />
+                                <b>
+                                  {
+                                    itemView.caracteristicas[2].nombreTemario[
+                                      index
+                                    ]
+                                  }
+                                </b>
+                              </Col>
+                            </>
+                          )
+                        )}
                     </Row>
                   </Col>
                 </Row>

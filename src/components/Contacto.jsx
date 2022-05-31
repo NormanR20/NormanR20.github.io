@@ -8,6 +8,9 @@ import "../css/style.css";
 
 const Contacto = () => {
   const [t, i18n] = useTranslation("global");
+  var configuracion_ventana =
+    "menubar=yes,location=yes,resizable=yes,scrollbars=yes,status=yes";
+
   return (
     <div>
       <section
@@ -39,7 +42,13 @@ const Contacto = () => {
                   src={facebook}
                   alt=""
                   style={{ width: "30px" }}
-                  onclick="//window.open('https://www.facebook.com/nraudalesmejia/')"
+                  onClick={() =>
+                    window.open(
+                      "https://www.facebook.com/nraudalesmejia/",
+                      "Facebook",
+                      configuracion_ventana
+                    )
+                  }
                 />
               </Col>
               <Col lg="1" xl="1" md="1" sm="4" id="iconoF" align="center">
@@ -47,7 +56,13 @@ const Contacto = () => {
                   src={InstagramIcon}
                   alt=""
                   style={{ width: "30px" }}
-                  onclick="//window.open('https://www.instagram.com/_normanr17_/?hl=es')"
+                  onClick={() =>
+                    window.open(
+                      "https://www.instagram.com/_normanr17_/?hl=es",
+                      "Instagram",
+                      configuracion_ventana
+                    )
+                  }
                 />
               </Col>
               <Col
@@ -63,7 +78,13 @@ const Contacto = () => {
                   src={LinkedInIcon}
                   alt=""
                   style={{ width: "30px" }}
-                  onclick="window.open('https://www.linkedin.com/in/norman-eduardo-raudales-mejia-234722197')"
+                  onClick={() =>
+                    window.open(
+                      "https://www.linkedin.com/in/norman-eduardo-raudales-mejia-234722197",
+                      "linkedin",
+                      configuracion_ventana
+                    )
+                  }
                 />
               </Col>
             </Col>

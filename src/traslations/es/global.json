@@ -15,8 +15,13 @@
     "description": "Hola, mi nombre es Norman Eduardo Raudales Mejía, soy ingeniero en sistemas graduado de la Universidad Nacional Autónoma de Honduras. Me gusta el diseño web, y siempre me motiva tener nuevos retos.",
     "ageD": "Edad",
     "ageT": "años",
-    "language": "Idiomas: Español (Nativo), Ingles",
-    "qualification": "Titulación: Licenciatura en Ingeniería en Sistemas"
+    "languageTitle": "Idiomas:",
+    "language": "Español (Nativo), Ingles",
+    "qualificationTitle": "Titulación:",
+    "qualification": "Licenciatura en Ingeniería en Sistemas",
+    "experience": "Experiencia laboral",
+    "years": "Años",
+    "month": "Meses"
   },
   "skills": {
     "title": "Habilidades",

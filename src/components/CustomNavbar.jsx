@@ -1,8 +1,10 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
+import { Navbar, Nav, Container, NavDropdown, Row } from "react-bootstrap";
 import "../css/style.css";
+import us_en from "../images/us_en.png";
+import es_es from "../images/es_es.png";
 
 const CustomNavbar = (props) => {
   const [t, i18n] = useTranslation("global");
@@ -48,7 +50,16 @@ const CustomNavbar = (props) => {
                     i18n.changeLanguage("es");
                   }}
                 >
-                  ES
+                  <Row>
+                    <img
+                      id="es_es"
+                      src={es_es}
+                      alt="es_es"
+                      width="20px"
+                      className="mr-2"
+                    />
+                    ES
+                  </Row>
                 </NavDropdown.Item>
                 <NavDropdown.Item
                   href="/"
@@ -58,7 +69,16 @@ const CustomNavbar = (props) => {
                     i18n.changeLanguage("en");
                   }}
                 >
-                  EN
+                  <Row>
+                    <img
+                      id="us_en"
+                      src={us_en}
+                      alt="us_en"
+                      width="20px"
+                      className="mr-2"
+                    />
+                    EN
+                  </Row>
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>

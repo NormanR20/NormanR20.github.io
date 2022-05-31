@@ -36,60 +36,140 @@ const Habilidades = () => {
             <br />
             <p className="text-muted">{t("skills.techs")}</p>
             <Container as={Row} className="tabla">
-              <div className="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4">
+              <Col
+                xl="2"
+                lg="2"
+                md="4"
+                sm="4"
+                xs="4"
+                className="d-flex flex-wrap justify-content-center align-items-center"
+              >
                 <img src={PHPICON} alt="PHPICON" style={{ width: "100%" }} />
-              </div>
-              <div className="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4">
+                <b>PHP</b>
+              </Col>
+              <Col
+                xl="2"
+                lg="2"
+                md="4"
+                sm="4"
+                xs="4"
+                className="d-flex flex-wrap justify-content-center align-items-center"
+              >
                 <img
                   src={javascriptIcon}
                   alt="javascriptIcon"
                   style={{ width: "100%" }}
                 />
-              </div>
-              <div className="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4">
+                <b>JavaScript</b>
+              </Col>
+              <Col
+                xl="2"
+                lg="2"
+                md="4"
+                sm="4"
+                xs="4"
+                className="d-flex flex-wrap justify-content-center align-items-center"
+              >
                 <img
                   src={mysqlIcon}
                   alt="mysqlIcon"
                   style={{ width: "100%" }}
                 />
-              </div>
-              <div className="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4">
+                <b>MySQL</b>
+              </Col>
+              <Col
+                xl="2"
+                lg="2"
+                md="4"
+                sm="4"
+                xs="4"
+                className="d-flex flex-wrap justify-content-center align-items-center"
+              >
                 <img src={htmlIcon} alt="htmlIcon" style={{ width: "100%" }} />
-              </div>
-              <div className="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4">
+                <b>HTML</b>
+              </Col>
+              <Col
+                xl="2"
+                lg="2"
+                md="4"
+                sm="4"
+                xs="4"
+                className="d-flex flex-wrap justify-content-center align-items-center"
+              >
                 <img src={cssIcon} alt="cssIcon" style={{ width: "100%" }} />
-              </div>
-              <div className="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4">
+                <b>CSS</b>
+              </Col>
+              <Col
+                xl="2"
+                lg="2"
+                md="4"
+                sm="4"
+                xs="4"
+                className="d-flex flex-wrap justify-content-center align-items-center"
+              >
                 <img
                   src={angularIcon}
                   alt="angularIcon"
                   style={{ width: "100%" }}
                 />
-              </div>
-              <div className="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4">
+                <b>Angular</b>
+              </Col>
+              <Col
+                xl="2"
+                lg="2"
+                md="4"
+                sm="4"
+                xs="4"
+                className="d-flex flex-wrap justify-content-center align-items-center"
+              >
                 <img src={NodeIcon} alt="NodeIcon" style={{ width: "100%" }} />
-              </div>
-              <div className="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4">
+                <b>NodeJS</b>
+              </Col>
+              <Col
+                xl="2"
+                lg="2"
+                md="4"
+                sm="4"
+                xs="4"
+                className="d-flex flex-wrap justify-content-center align-items-center"
+              >
                 <img
                   src={typescriptIcon}
                   alt="typescriptIcon"
                   style={{ width: "100%" }}
                 />
-              </div>
-              <div className="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4">
+                <b>TypeScript</b>
+              </Col>
+              <Col
+                xl="2"
+                lg="2"
+                md="4"
+                sm="4"
+                xs="4"
+                className="d-flex flex-wrap justify-content-center align-items-center"
+              >
                 <img
                   src={mongodbIcon}
                   alt="mongodbIcon"
                   style={{ width: "100%", filter: "grayscale(100%)" }}
                 />
-              </div>
-              <div className="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4">
+                <b>Mongodb</b>
+              </Col>
+              <Col
+                xl="2"
+                lg="2"
+                md="4"
+                sm="4"
+                xs="4"
+                className="d-flex flex-wrap justify-content-center align-items-center"
+              >
                 <img
                   src={reactIcon}
                   alt="mongodbIcon"
                   style={{ width: "100%", filter: "grayscale(100%)" }}
                 />
-              </div>
+                <b>ReactJs</b>
+              </Col>
             </Container>
           </Col>
         </Row>

@@ -15,8 +15,13 @@
     "description": "Hello, my name is Norman Eduardo Raudales Mejía, I am a systems engineer graduated from the National Autonomous University of Honduras. I like web design, and it always motivates me to have new challenges.",
     "ageD": "Age",
     "ageT": "years old",
-    "language": "Languages: Spanish (Native), English",
-    "qualification": "Qualification: Bachelor of Systems Engineering"
+    "languageTitle": "Languages:",
+    "language": "Spanish (Native), English",
+    "qualificationTitle": "Qualification:",
+    "qualification": "Bachelor of Systems Engineering",
+    "experience": "Work experience",
+    "years": "Years",
+    "month": "Months"
   },
   "skills": {
     "title": "Skills",

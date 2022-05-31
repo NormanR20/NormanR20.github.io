@@ -11,6 +11,7 @@ import htmlIcon from "../../images/htmlIcon.png";
 import cssIcon from "../../images/cssIcon.png";
 import phpIcon from "../../images/phpIcon.png";
 import mysqlIcon from "../../images/mysqlIcon.png";
+import reactIcon from "../../images/react.png";
 
 const Data_EN = [
   {
@@ -48,6 +49,16 @@ const Data_EN = [
           htmlIcon,
           cssIcon,
         ],
+        nombreTemario: [
+          "Angular",
+          "NodeJS",
+          "TypeScript",
+          "Mongodb",
+          "JavaScript",
+          "MySQL",
+          "HTML",
+          "CSS",
+        ],
       },
     ],
     url: "https://oneclick-dev.herokuapp.com/",
@@ -80,38 +91,41 @@ const Data_EN = [
       {
         nombre: "Used technology",
         temario: [phpIcon, javascriptIcon, mysqlIcon, htmlIcon, cssIcon],
+        nombreTemario: ["PHP", "JavaScript", "MySQL", "HTML", "CSS"],
       },
     ],
     url: "",
   },
   {
     title: "Aurora System",
-    subTitle:
-      "Este sistema fue desarrollado para uso dentro la Facultad de Ingeniería de la Universidad Nacional Autónoma de Honduras.",
+    subTitle: "This system was developed for use by the Farinter drugstore.",
     imagen: imagen3,
     descripcion:
-      "Esta aplicación fue desarrollada como proyecto de práctica, con esta se agilizaron muchos procesos administrativos que se realizaban en la Facultad de Ingeniería de la Universidad Nacional Autónoma de Honduras. El proyecto va orientado a la planificación de actividades a realizar al año, planificar actividades según presupuestos asignados y poder generar informes administrativos de estas, entre otras funcionalidades dentro del sistema.",
+      "This application was developed to streamline the processes that are developed in human resources.",
     caracteristicas: [
       {
         nombre: "Control Usuarios",
         temario: [
-          "Módulo de superusuario, en el cual pueda controlar que usuarios pueden interactuar con el sistema.",
-          "Modulo usuarios administrativos, en el cual se generará reportes, asignador presupuestos, entre otras funcionalidades.",
-          "Modulo usuarios de departamento, en el cual se pueda ingresar las actividades a planificar, estos solo pueden Visualizar y utilizar el presupuesto que se asignó, solicitar permisos, entre otras funcionalidades.",
+          "Superuser role, in which you can control which users can interact with the system.",
+          "Manager user role, which can view the employees that are assigned to it and all the corresponding information, and is also allowed to monitor the processes to which an employee is assigned.",
+          "Employee role, in which you can view information corresponding to him, view pending documents and participate in surveys, etc.",
+          "Senior management role, this has access to all the information of the application",
+          "Work environment module, this has its own role of manager, this is where you have access to internal surveys carried out within the company",
+          "OnBoarding and OffBoarding module, this has its own responsible role, in which the processes corresponding to hiring and dismissals are carried out, the processes are carried out through steps where the responsible personnel indicates what must be followed in each step",
         ],
       },
       {
-        nombre: "Poa y Pacc",
+        nombre: "Aurora",
         temario: [
-          "Formulario para ingresar actividades, para usuarios de departamento, el cual fue desarrollado utilizando una función llamada wizard.",
-          "Visualizar actividades planificadas mediante dos métodos, para usuarios de departamento, un calendario y un listado en una tabla.",
-          "Modificar actividades ingresadas, para usuarios de departamento.",
-          "Generar reportes de la planificación final, para usuarios administrativos, la generación de los reportes se realiza bajo las condiciones solicitadas por los usuarios del sistema.",
+          "Control of employees both entries and exits.",
+          "View and generate reports by module.",
+          "Document management.",
         ],
       },
       {
         nombre: "Tecnologías utilizadas:",
-        temario: [phpIcon, javascriptIcon, mysqlIcon, htmlIcon, cssIcon],
+        temario: [reactIcon, javascriptIcon, htmlIcon, cssIcon],
+        nombreTemario: ["ReactJs", "JavaScript", "HTML", "CSS"],
       },
     ],
     url: "",
