@@ -31,7 +31,7 @@ const Proyecto = (props) => {
             <Button
               variant="dark"
               size="lg"
-              className="rounded-pill mt-2 mx-auto shadow"
+              className="rounded mt-2 mx-auto"
               onClick={props.onShow}
             >
               Visualizar
