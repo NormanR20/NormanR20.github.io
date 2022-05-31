@@ -39,7 +39,11 @@ const SobreMi = () => {
               className="bg-image ripple shadow-2-strong rounded-5"
               data-mdb-ripple-color="light"
             >
-              <img src={FotoPerfil} className="img-fluid" alt="FotoPerfil" />
+              <img
+                src={FotoPerfil}
+                className="img-fluid rounded shadow-lg"
+                alt="FotoPerfil"
+              />
               <div
                 className="mask"
                 style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}
