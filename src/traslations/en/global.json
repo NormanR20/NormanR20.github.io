@@ -51,6 +51,7 @@
     "title": "Contact me to work together",
     "name": "Name",
     "email": "Email",
+    "cell": "Cellphone",
     "message": "Message",
     "success": "The message was sent successfully!!",
     "error": "Something went wrong.",

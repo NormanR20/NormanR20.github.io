@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import emailjs from "emailjs-com";
 import toastr from "toastr";
-import { Col } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 
 const Form = () => {
   const [t, i18n] = useTranslation("global");
@@ -49,9 +49,22 @@ const Form = () => {
           <hr />
           <form onSubmit={enviarEmail}>
             <div className="form-row">
+              <div className="form-group col-md-12" style={{ display: "none" }}>
+                <label>
+                  <b>{t("email.name")}:</b>
+                </label>
+                <input
+                  type="text"
+                  className="form-control"
+                  id="nombre"
+                  value="Norman Eduardo Raudales Mejía"
+                  name="to_name"
+                  required
+                />
+              </div>
               <div className="form-group col-md-12">
                 <label>
-                  <b>{t("email.name")}</b>
+                  <b>{t("email.name")}:</b>
                 </label>
                 <input
                   type="text"
@@ -61,9 +74,35 @@ const Form = () => {
                   required
                 />
               </div>
+              <Row>
+                <div className="form-group col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                  <label>
+                    <b>Ext:</b>
+                  </label>
+                  <input
+                    type="number"
+                    className="form-control"
+                    id="email"
+                    name="ext_from"
+                    required
+                  />
+                </div>
+                <div className="form-group col-xl-9 col-lg-9 col-md-9 col-sm-9 col-9">
+                  <label>
+                    <b>{t("email.cell")}:</b>
+                  </label>
+                  <input
+                    type="number"
+                    className="form-control"
+                    id="email"
+                    name="cel_from"
+                    required
+                  />
+                </div>
+              </Row>
               <div className="form-group col-md-12">
                 <label>
-                  <b>{t("email.email")}</b>
+                  <b>{t("email.email")}:</b>
                 </label>
                 <input
                   type="text"
@@ -76,7 +115,7 @@ const Form = () => {
             </div>
             <div className="form-group">
               <label>
-                <b>{t("email.message")}</b>
+                <b>{t("email.message")}:</b>
               </label>
               <textarea
                 type="text"

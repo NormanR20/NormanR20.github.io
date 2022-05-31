@@ -51,6 +51,7 @@
     "title": "Contactame para trabajar juntos",
     "name": "Nombre",
     "email": "Correo",
+    "cell": "Celular",
     "message": "Mensaje",
     "success": "El mensaje se envio con exito!!",
     "error": "Algo salio mal.",
