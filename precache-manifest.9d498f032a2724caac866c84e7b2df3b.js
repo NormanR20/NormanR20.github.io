@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "6b12559b37ee06945fed",
-    "url": "/static/css/main.d74aff3b.chunk.css"
+    "revision": "fbac5750ac283f63af4d",
+    "url": "/static/css/main.5eda7383.chunk.css"
   },
   {
-    "revision": "6b12559b37ee06945fed",
-    "url": "/static/js/main.6b12559b.chunk.js"
+    "revision": "fbac5750ac283f63af4d",
+    "url": "/static/js/main.fbac5750.chunk.js"
   },
   {
-    "revision": "a16207244cd6727c070e",
-    "url": "/static/css/1.3a8ca3f6.chunk.css"
+    "revision": "51c14e391ced98dfbdc8",
+    "url": "/static/css/1.b4e047bb.chunk.css"
   },
   {
-    "revision": "a16207244cd6727c070e",
-    "url": "/static/js/1.a1620724.chunk.js"
+    "revision": "51c14e391ced98dfbdc8",
+    "url": "/static/js/1.51c14e39.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -52,16 +52,24 @@ self.__precacheManifest = [
     "url": "/static/media/rrhh_aurora.adf79099.svg"
   },
   {
-    "revision": "744bf3b8925a29fb30a6f5c05165f78c",
-    "url": "/static/media/computadora-portatil.744bf3b8.svg"
-  },
-  {
     "revision": "d883c38807089a496e81dc34e951e663",
     "url": "/static/media/InstagramIcon.d883c388.png"
   },
   {
     "revision": "37f06308332b64a8bccad0003fde2986",
     "url": "/static/media/IMG_1946.37f06308.JPG"
+  },
+  {
+    "revision": "4ab61498675e9df9c36b0fdaf34e4655",
+    "url": "/static/media/Bootstrap_logo.4ab61498.png"
+  },
+  {
+    "revision": "83fe61b05935f090b671b08aeb77b63d",
+    "url": "/static/media/react-bootstrap.83fe61b0.svg"
+  },
+  {
+    "revision": "5c7392a91f8cd5d997137f6b4a36870b",
+    "url": "/static/media/redux.5c7392a9.svg"
   },
   {
     "revision": "43111572bda90fe1adb3e38a363efd84",
@@ -72,7 +80,11 @@ self.__precacheManifest = [
     "url": "/static/media/Resume-NormanRaudales.8dfd0d8c.pdf"
   },
   {
-    "revision": "d6e2e635dc92fb1832dde5a898465edf",
+    "revision": "744bf3b8925a29fb30a6f5c05165f78c",
+    "url": "/static/media/computadora-portatil.744bf3b8.svg"
+  },
+  {
+    "revision": "0b947103a0bc3af092bf8999ad476e13",
     "url": "/index.html"
   }
 ];
