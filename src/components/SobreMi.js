@@ -41,7 +41,7 @@ const SobreMi = () => {
             >
               <img
                 src={FotoPerfil}
-                className="img-fluid rounded shadow-lg"
+                className="img-fluid rounded-pill shadow-lg"
                 alt="FotoPerfil"
               />
               <div

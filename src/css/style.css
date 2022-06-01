@@ -1,21 +1,13 @@
-#intro {
-  transform: translateY(0%);
-  background: url("../images/gamer-4k-game-console-tv-night.jpg") no-repeat;
-  background-size: cover;
-  transition: 1.8s ease-in-out;
-  z-index: 6;
-  /* border-bottom-right-radius: 3%;
+/* #intro { */
+/* transform: translateY(0%); */
+/* background: url("../images/gamer-4k-game-console-tv-night.jpg")
+    no-repeat; */
+/* background-size: cover; */
+/* transition: 1.8s ease-in-out;
+  z-index: 6; */
+/* border-bottom-right-radius: 3%;
     border-bottom-left-radius: 3%; */
-}
-#intro2 {
-  transform: translateY(0%);
-  background: url("../images/gamer-4k-game-console-tv-night.jpg") no-repeat;
-  background-size: cover;
-  transition: 1.8s ease-in-out;
-  z-index: 6;
-  /* border-bottom-right-radius: 3%;
-    border-bottom-left-radius: 3%; */
-}
+/* } */
 
 .fondoIntro {
   transform: translateY(0%);
@@ -94,7 +86,7 @@ a:hover {
 }
 #imgCpu:hover {
   transition: 0.8s ease-in-out;
-  cursor: pointer;
+  /* cursor: pointer; */
   opacity: 0.6;
 }
 

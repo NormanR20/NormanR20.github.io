@@ -14,7 +14,7 @@ const CustomNavbar = (props) => {
     <>
       <Navbar
         expand="lg"
-        // fixed="top"
+        fixed="top"
         style={{
           zIndex: "2000",
           backgroundColor: "#000000",
@@ -28,8 +28,8 @@ const CustomNavbar = (props) => {
           className="d-flex align-items-center justify-content-center text-center"
         >
           <Navbar.Brand className="text-light d-flex align-items-center justify-content-center">
-            <MaterialIcon icon="computer" invert />
-            &nbsp;Norman Raudales
+            <MaterialIcon icon="code" invert />
+            &nbsp;<p style={{ fontFamily: "Alfa Slab One" }}>NR</p>
           </Navbar.Brand>
           <Navbar.Toggle
             className="ml-auto bg-light"

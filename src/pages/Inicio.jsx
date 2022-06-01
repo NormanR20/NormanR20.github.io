@@ -310,16 +310,20 @@ const Inicio = () => {
                           (tem, index) => (
                             <>
                               <Col
-                                xl="4"
-                                lg="4"
+                                xl="3"
+                                lg="3"
                                 md="4"
-                                sm="6"
+                                sm="4"
+                                xs="4"
                                 className="d-flex flex-wrap justify-content-center align-items-center"
                               >
                                 <img
                                   src={tem}
-                                  alt=""
-                                  style={{ width: "100%" }}
+                                  alt="imagen"
+                                  style={{
+                                    width: "100%",
+                                    filter: "grayscale(100%)",
+                                  }}
                                 />
                                 <b>
                                   {

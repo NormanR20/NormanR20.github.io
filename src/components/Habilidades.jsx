@@ -10,6 +10,9 @@ import NodeIcon from "../images/NodeIcon.png";
 import typescriptIcon from "../images/typescriptIcon.png";
 import mongodbIcon from "../images/mongodbIcon.png";
 import reactIcon from "../images/react.png";
+import bootstrap from "../images/Bootstrap_logo.png";
+import reactBootstrap from "../images/react-bootstrap.svg";
+import redux from "../images/redux.svg";
 import { Col, Container, Row } from "react-bootstrap";
 import "../css/style.css";
 
@@ -169,6 +172,51 @@ const Habilidades = () => {
                   style={{ width: "100%", filter: "grayscale(100%)" }}
                 />
                 <b>ReactJs</b>
+              </Col>
+              <Col
+                xl="2"
+                lg="2"
+                md="4"
+                sm="4"
+                xs="4"
+                className="d-flex flex-wrap justify-content-center align-items-center"
+              >
+                <img
+                  src={reactBootstrap}
+                  alt="reactBootstrapIcon"
+                  style={{ width: "100%", filter: "grayscale(100%)" }}
+                />
+                <b>ReactBootstrap</b>
+              </Col>
+              <Col
+                xl="2"
+                lg="2"
+                md="4"
+                sm="4"
+                xs="4"
+                className="d-flex flex-wrap justify-content-center align-items-center"
+              >
+                <img
+                  src={redux}
+                  alt="reduxIcon"
+                  style={{ width: "100%", filter: "grayscale(100%)" }}
+                />
+                <b>Redux</b>
+              </Col>
+              <Col
+                xl="2"
+                lg="2"
+                md="4"
+                sm="4"
+                xs="4"
+                className="d-flex flex-wrap justify-content-center align-items-center"
+              >
+                <img
+                  src={bootstrap}
+                  alt="bootstrapIcon"
+                  style={{ width: "100%", filter: "grayscale(100%)" }}
+                />
+                <b>Bootstrap</b>
               </Col>
             </Container>
           </Col>
