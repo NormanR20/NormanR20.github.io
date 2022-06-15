@@ -64,7 +64,7 @@ const Inicio = () => {
           borderTop: "#000000",
           borderBottom: "#000000",
         }}
-        className="mt-2"
+        className="mt-5"
         id="About"
       >
         <Row>

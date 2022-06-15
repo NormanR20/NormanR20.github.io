@@ -77,13 +77,13 @@ const Bienvenida = () => {
           </Container>
         </Hero>
       </div>
-      <div
+      {/* <div
         style={{
           backgroundImage: "linear-gradient(to bottom,black,black,white,white)",
           height: "3rem",
           marginTop: "-1rem",
         }}
-      ></div>
+      ></div> */}
     </>
   );
 };

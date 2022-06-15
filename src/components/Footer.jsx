@@ -29,10 +29,11 @@ const Footer = () => {
           }}
         ></div> */}
         <footer
-          class="text-light"
+          className="text-dark"
           width="100%"
           style={{
-            backgroundColor: "#000000",
+            // backgroundColor: "#000000",
+            borderTop: "1px solid #e5e5ea",
           }}
         >
           <Col>
