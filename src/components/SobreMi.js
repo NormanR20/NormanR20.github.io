@@ -67,7 +67,8 @@ const SobreMi = () => {
               <li>
                 <b>{t("about.experience")}:</b> {t("about.years")}:&nbsp;
                 {fecha2.diff(fecha1, "year")} {t("about.month")}:&nbsp;
-                {fecha2.diff(fecha1, "month")}
+                {fecha2.diff(fecha1, "month") -
+                  fecha2.diff(fecha1, "year") * 12}
               </li>
             </div>
           </Col>
