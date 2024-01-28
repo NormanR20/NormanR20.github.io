@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "111699d2ab8a37e69913",
-    "url": "/static/css/main.5eda7383.chunk.css"
+    "revision": "7a9ee885417bc17358b3",
+    "url": "/static/css/main.c263f195.chunk.css"
   },
   {
-    "revision": "111699d2ab8a37e69913",
-    "url": "/static/js/main.111699d2.chunk.js"
+    "revision": "7a9ee885417bc17358b3",
+    "url": "/static/js/main.7a9ee885.chunk.js"
   },
   {
-    "revision": "51c14e391ced98dfbdc8",
-    "url": "/static/css/1.b4e047bb.chunk.css"
+    "revision": "8984cef8c2c5fe015d23",
+    "url": "/static/css/1.6afb311d.chunk.css"
   },
   {
-    "revision": "51c14e391ced98dfbdc8",
-    "url": "/static/js/1.51c14e39.chunk.js"
+    "revision": "8984cef8c2c5fe015d23",
+    "url": "/static/js/1.8984cef8.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -56,8 +56,16 @@ self.__precacheManifest = [
     "url": "/static/media/InstagramIcon.d883c388.png"
   },
   {
-    "revision": "37f06308332b64a8bccad0003fde2986",
-    "url": "/static/media/IMG_1946.37f06308.JPG"
+    "revision": "eb5e4ba28578c9f8a348ef684c29139b",
+    "url": "/static/media/IMG_5836.eb5e4ba2.jpg"
+  },
+  {
+    "revision": "162ee83dbba7afc24d8f2009c7a22dc5",
+    "url": "/static/media/logo-django.162ee83d.png"
+  },
+  {
+    "revision": "8773af3cffe303b5ad235ea734436765",
+    "url": "/static/media/postgresql-logo.8773af3c.png"
   },
   {
     "revision": "4ab61498675e9df9c36b0fdaf34e4655",
@@ -72,19 +80,19 @@ self.__precacheManifest = [
     "url": "/static/media/redux.5c7392a9.svg"
   },
   {
-    "revision": "9fa7ca704b177785bd497fbffcc91e9f",
-    "url": "/static/media/HojaDeVida-NormanRaudales.9fa7ca70.pdf"
+    "revision": "5f45f54808dcf3ac83911bd11b47d783",
+    "url": "/static/media/HojaDeVida-NormanRaudales.5f45f548.pdf"
   },
   {
-    "revision": "ea913431e60e723205bff8da46976384",
-    "url": "/static/media/Resume-NormanRaudales.ea913431.pdf"
+    "revision": "fac682fdf5ea23ace919d8993c556406",
+    "url": "/static/media/Resume-NormanRaudales.fac682fd.pdf"
   },
   {
     "revision": "744bf3b8925a29fb30a6f5c05165f78c",
     "url": "/static/media/computadora-portatil.744bf3b8.svg"
   },
   {
-    "revision": "e83f49e135ba7f9b1f271e281b6c5b68",
+    "revision": "d27faebdff443b1c5135dc612584e6c8",
     "url": "/index.html"
   }
 ];
