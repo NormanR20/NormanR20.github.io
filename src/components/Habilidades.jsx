@@ -10,6 +10,8 @@ import NodeIcon from "../images/NodeIcon.png";
 import typescriptIcon from "../images/typescriptIcon.png";
 import mongodbIcon from "../images/mongodbIcon.png";
 import reactIcon from "../images/react.png";
+import djangoIcon from "../images/logo-django.png";
+import postgresIcon from "../images/postgresql-logo.png";
 import bootstrap from "../images/Bootstrap_logo.png";
 import reactBootstrap from "../images/react-bootstrap.svg";
 import redux from "../images/redux.svg";
@@ -217,6 +219,36 @@ const Habilidades = () => {
                   style={{ width: "100%", filter: "grayscale(100%)" }}
                 />
                 <b>Bootstrap</b>
+              </Col>
+              <Col
+                xl="2"
+                lg="2"
+                md="4"
+                sm="4"
+                xs="4"
+                className="d-flex flex-wrap justify-content-center align-items-center"
+              >
+                <img
+                  src={djangoIcon}
+                  alt="djangoIcon"
+                  style={{ width: "100%", filter: "grayscale(100%)" }}
+                />
+                <b>Django</b>
+              </Col>
+              <Col
+                xl="2"
+                lg="2"
+                md="4"
+                sm="4"
+                xs="4"
+                className="d-flex flex-wrap justify-content-center align-items-center"
+              >
+                <img
+                  src={postgresIcon}
+                  alt="postgresSQLIcon"
+                  style={{ width: "100%", filter: "grayscale(100%)" }}
+                />
+                <b>PostgresSQL</b>
               </Col>
             </Container>
           </Col>

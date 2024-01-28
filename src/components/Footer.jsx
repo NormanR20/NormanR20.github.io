@@ -41,7 +41,7 @@ const Footer = () => {
               <Col className="d-flex flex-wrap justify-content-start align-items-center">
                 <Row className="text-center p-3 mx-2">
                   <Row>
-                    © 2022 Copyright: <p>Norman Raudales</p>
+                    © 2024 Copyright: <p>Norman Raudales</p>
                   </Row>
                 </Row>
               </Col>

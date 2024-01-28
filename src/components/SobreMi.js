@@ -1,8 +1,8 @@
 import React from "react";
 import moment from "moment";
 import { useTranslation } from "react-i18next";
-import { Col, Row } from "react-bootstrap";
-import FotoPerfil from "../images/IMG_1946.JPG";
+import { Col, Row, Table } from "react-bootstrap";
+import FotoPerfil from "../images/IMG_5836.jpg";
 import "../css/style.css";
 
 const SobreMi = () => {
@@ -41,7 +41,7 @@ const SobreMi = () => {
             >
               <img
                 src={FotoPerfil}
-                className="img-fluid rounded-pill shadow-lg"
+                className="img-fluid rounded shadow border border-light"
                 alt="FotoPerfil"
               />
               <div
@@ -53,7 +53,7 @@ const SobreMi = () => {
 
           <Col md="6" className="mx-5 mb-4" style={{ marginRight: "auto" }}>
             <p className="text-muted">{t("about.description")}</p>
-            <div>
+            {/* <div>
               <li>
                 <b>{t("about.ageD")}:</b> {age} {t("about.ageT")}
               </li>
@@ -70,7 +70,42 @@ const SobreMi = () => {
                 {fecha2.diff(fecha1, "month") -
                   fecha2.diff(fecha1, "year") * 12}
               </li>
-            </div>
+            </div> */}
+            <Table hover>
+              <tbody>
+                <tr>
+                  <td>
+                    <b>{t("about.ageD")}:</b>
+                  </td>
+                  <td>
+                    {age} {t("about.ageT")}
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <b>{t("about.languageTitle")}</b>
+                  </td>
+                  <td>{t("about.language")}</td>
+                </tr>
+                <tr>
+                  <td>
+                    <b>{t("about.qualificationTitle")}</b>
+                  </td>
+                  <td>{t("about.qualification")}</td>
+                </tr>
+                <tr>
+                  <td>
+                    <b>{t("about.experience")}:</b>
+                  </td>
+                  <td>
+                    {t("about.years")}:&nbsp;
+                    {fecha2.diff(fecha1, "year")} {t("about.month")}:&nbsp;
+                    {fecha2.diff(fecha1, "month") -
+                      fecha2.diff(fecha1, "year") * 12}
+                  </td>
+                </tr>
+              </tbody>
+            </Table>
           </Col>
         </div>
       </section>

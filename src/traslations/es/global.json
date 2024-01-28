@@ -12,13 +12,13 @@
   },
   "about": {
     "title": "Sobre mi",
-    "description": "Hola, mi nombre es Norman Eduardo Raudales Mejía, soy ingeniero en sistemas graduado de la Universidad Nacional Autónoma de Honduras. Me gusta el diseño web, mi mayor fuerte es el desarrollo de Front-end y las Base de Datos, aunq también manejo un poco de la logica para el desarrollo en lado de Back-end. Soy una persona que no se conforma con el conocimiento que ya tengo y siempre me motiva tener nuevos retos.",
+    "description": "Hola, mi nombre es Norman Eduardo Raudales Mejía, Master en Ingenieria de Software graduado de Tech Universidad Tecnologica y soy ingeniero en sistemas graduado de la Universidad Nacional Autónoma de Honduras. Me gusta el diseño web, mi mayor fuerte es el desarrollo de Front-end y las Base de Datos, aunq también manejo un poco de la logica para el desarrollo en lado de Back-end. Soy una persona que no se conforma con el conocimiento que ya tengo y siempre me motiva tener nuevos retos.",
     "ageD": "Edad",
     "ageT": "años",
     "languageTitle": "Idiomas:",
     "language": "Español (Nativo), Ingles",
     "qualificationTitle": "Titulación:",
-    "qualification": "Licenciatura en Ingeniería en Sistemas",
+    "qualification": "Licenciatura en Ingeniería en Sistemas, Master en Ingeniería de Software",
     "experience": "Experiencia laboral",
     "years": "Años",
     "month": "Meses"

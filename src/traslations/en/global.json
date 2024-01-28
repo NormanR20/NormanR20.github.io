@@ -12,13 +12,13 @@
   },
   "about": {
     "title": "About",
-    "description": "Hello, my name is Norman Eduardo Raudales Mejía, I am a systems engineer graduated from the National Autonomous University of Honduras. I like web design, my greatest strength is Front-End development and also Database, although I also handle a bit of logic to development on the Back-End side. I am a person who is not satisfied with the knowledge I already have and I am always motivated to have new challenges.",
+    "description": "Hello, my name is Norman Eduardo Raudales Mejía, Master in Software Engineering graduated from Tech Universidad Tecnologica and I am a systems engineer graduated from the National Autonomous University of Honduras. I like web design, my greatest strength is Front-End development and also Database, although I also handle a bit of logic to development on the Back-End side. I am a person who is not satisfied with the knowledge I already have and I am always motivated to have new challenges.",
     "ageD": "Age",
     "ageT": "years old",
     "languageTitle": "Languages:",
     "language": "Spanish (Native), English",
     "qualificationTitle": "Qualification:",
-    "qualification": "Bachelor of Systems Engineering",
+    "qualification": "Bachelor of Systems Engineering, Master in Software Engineering",
     "experience": "Work experience",
     "years": "Years",
     "month": "Months"
