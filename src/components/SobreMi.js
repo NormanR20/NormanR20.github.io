@@ -95,13 +95,26 @@ const SobreMi = () => {
                 </tr>
                 <tr>
                   <td>
-                    <b>{t("about.experience")}:</b>
+                    <b>{t("about.jobExperience")}:</b>
                   </td>
                   <td>
                     {t("about.years")}:&nbsp;
                     {fecha2.diff(fecha1, "year")} {t("about.month")}:&nbsp;
                     {fecha2.diff(fecha1, "month") -
                       fecha2.diff(fecha1, "year") * 12}
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <b>{t("about.experience")}:</b>
+                  </td>
+                  <td>
+                    {fecha2.diff(fecha1, "year") < 2
+                      ? "Junior"
+                      : fecha2.diff(fecha1, "year") >= 2 &&
+                        fecha2.diff(fecha1, "year") < 5
+                      ? "Semi-Senior"
+                      : "Senior"}
                   </td>
                 </tr>
               </tbody>
