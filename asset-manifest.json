@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.c263f195.chunk.css",
-  "main.js": "/static/js/main.7e6ce9fb.chunk.js",
-  "main.js.map": "/static/js/main.7e6ce9fb.chunk.js.map",
+  "main.js": "/static/js/main.aac9bd73.chunk.js",
+  "main.js.map": "/static/js/main.aac9bd73.chunk.js.map",
   "static/css/1.6afb311d.chunk.css": "/static/css/1.6afb311d.chunk.css",
   "static/js/1.8984cef8.chunk.js": "/static/js/1.8984cef8.chunk.js",
   "static/js/1.8984cef8.chunk.js.map": "/static/js/1.8984cef8.chunk.js.map",
@@ -22,12 +22,12 @@
   "static/media/Bootstrap_logo.png": "/static/media/Bootstrap_logo.4ab61498.png",
   "static/media/react-bootstrap.svg": "/static/media/react-bootstrap.83fe61b0.svg",
   "static/media/redux.svg": "/static/media/redux.5c7392a9.svg",
-  "static/media/HojaDeVida-NormanRaudales.pdf": "/static/media/HojaDeVida-NormanRaudales.7bccff1a.pdf",
-  "static/media/Resume-NormanRaudales.pdf": "/static/media/Resume-NormanRaudales.54b64ac2.pdf",
+  "static/media/HojaDeVida-NormanRaudales.pdf": "/static/media/HojaDeVida-NormanRaudales.ff9a7d97.pdf",
+  "static/media/Resume-NormanRaudales.pdf": "/static/media/Resume-NormanRaudales.7e34f941.pdf",
   "static/media/computadora-portatil.svg": "/static/media/computadora-portatil.744bf3b8.svg",
-  "static/css/main.c263f195.chunk.css.map": "/static/css/main.c263f195.chunk.css.map",
   "static/css/1.6afb311d.chunk.css.map": "/static/css/1.6afb311d.chunk.css.map",
+  "static/css/main.c263f195.chunk.css.map": "/static/css/main.c263f195.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.4427c4f380d5f67785ccf19e3a4db3da.js": "/precache-manifest.4427c4f380d5f67785ccf19e3a4db3da.js",
+  "precache-manifest.4ff3c058f6108b70a8c21c3d805b3e46.js": "/precache-manifest.4ff3c058f6108b70a8c21c3d805b3e46.js",
   "service-worker.js": "/service-worker.js"
 }
