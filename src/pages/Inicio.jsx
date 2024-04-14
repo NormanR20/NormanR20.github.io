@@ -206,6 +206,7 @@ const Inicio = () => {
           </Container>
         </Container>
         <hr class="my-5" />
+        <br />
       </Col>
       <Container className="my-3">
         <Container fluid className="mt-5" id="Contact">
